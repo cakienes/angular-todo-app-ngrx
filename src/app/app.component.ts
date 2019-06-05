@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { AppState } from '../Redux/app.reducer';
-import * as TodoActions from '../Redux/todo/todo.actions';
-import { Todo } from '../Redux/todo/todo.model';
+import { AppState } from '../redux/app.reducer';
+import * as TodoActions from '../redux/todo/todo.actions';
+import { Todo } from '../redux/todo/todo.model';
 
 @Component({
   selector: 'app-root',
